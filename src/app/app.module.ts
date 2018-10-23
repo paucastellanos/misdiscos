@@ -9,8 +9,11 @@ import { HomePage } from '../pages/home/home';
 import { Album1Page } from '../pages/album1/album1';
 import { Artista1Page } from '../pages/artista1/artista1';
 import { Tracks1Page } from '../pages/tracks1/tracks1';
-import { Tracks11Page } from '../pages/tracks11/tracks11';
 import { Comentarios1Page } from '../pages/comentarios1/comentarios1';
+import { Artista2Page } from '../pages/artista2/artista2';
+import { Album2Page } from '../pages/album2/album2';
+import { Tracks2Page } from '../pages/tracks2/tracks2';
+import { Comentarios2Page } from '../pages/comentarios2/comentarios2';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,11 @@ import { Comentarios1Page } from '../pages/comentarios1/comentarios1';
     Album1Page,
     Artista1Page,
     Tracks1Page,
-    Comentarios1Page
+    Comentarios1Page,
+    Album2Page,
+    Artista2Page,
+    Tracks2Page,
+    Comentarios2Page
   ],
   imports: [
     BrowserModule,
@@ -32,7 +39,11 @@ import { Comentarios1Page } from '../pages/comentarios1/comentarios1';
     Album1Page,
     Artista1Page,
     Tracks1Page,
-    Comentarios1Page
+    Comentarios1Page,
+    Album2Page,
+    Artista2Page,
+    Tracks2Page,
+    Comentarios2Page
   ],
   providers: [
     StatusBar,

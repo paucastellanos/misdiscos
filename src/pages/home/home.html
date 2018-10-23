@@ -27,13 +27,13 @@
   <ion-card style = "background-color:rgb(139, 255, 245)">
       <ion-row>
         <ion-col>
-          <img src="../assets/CALVIN HARRIS.jpg">
+          <img (click)= "clickA2()" src="../assets/CALVIN HARRIS.jpg">
         </ion-col>
         <ion-col>
-          <h1>CALVIN HARRIS</h1>
-          <p>18 Months</p>
+          <h1 (click)= "clickN2()">CALVIN HARRIS</h1>
+          <p (click)= "clickT2()">18 Months</p>
           <p>2012</p>
-          <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon>
+          <ion-icon (click)= "clickCo2()" name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon>
           <p></p>
           <ion-icon style="color:aliceblue" name="play"></ion-icon>
         </ion-col>
@@ -71,22 +71,5 @@
             </ion-col>
           </ion-row>
         </ion-card>
-
-        <ion-card style = "background-color:rgb(139, 255, 245)">
-            <ion-row>
-              <ion-col>
-                <img src="../assets/THE CHAINS.jpg">
-              </ion-col>
-              <ion-col>
-                <h1>CHAINSMOKERS</h1>
-                <p>Memories...do not open</p>
-                <p>2017</p>
-                <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon>
-                <p></p>
-                <ion-icon style="color:aliceblue" name="play"></ion-icon>
-              </ion-col>
-            </ion-row>
-          </ion-card>
-
 
 </ion-content>
